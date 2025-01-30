@@ -6,8 +6,12 @@ const Header = () => {
   return (
     <div className='p-5 bg-white  shadow-sm border-b-2 flex justify-between items-center'>
        
-       <div className='flex gap-2 items-center p-2 border rounded-md max-w-lg shadow-sm'>
+       <div>
+        <img alt='logo' className='lg:hidden md:hidden' src='./lg.svg'/>
+       </div>
 
+       <div className='flex gap-2 items-center p-2 border rounded-md max-w-lg shadow-sm'>
+         
         <Search/>
         <input type='text' placeholder='Search' className='outline-none'/>
        </div>
