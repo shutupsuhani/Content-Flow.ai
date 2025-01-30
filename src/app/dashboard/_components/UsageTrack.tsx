@@ -1,5 +1,5 @@
 'use client'
-
+//UsageTrack.tsx
 import { Button } from '@/components/ui/button';
 import { useUser } from '@clerk/nextjs';
 import React, { useEffect, useState } from 'react';
@@ -8,8 +8,8 @@ import { AIOutput } from '../../../../utils/schema';
 import { eq } from 'drizzle-orm';  // Ensure this import is correct
 
 interface History {
-  aiResponse?: string ;
-  createdBy: string ;
+  aiResponse?: string | null ;
+  createdBy: string  ;
 }
 
 const MAX_CREDITS = 20000;  
