@@ -2,28 +2,6 @@ import { ChartBarIcon } from "lucide-react";
 
 export default[
     
-  {  
-    name:"Blog Title",
-    desc:"An AI Tool that generates blog title depends on your blog information. ",
-    category:"blog",
-    icon:"https://cdn-icons-png.flaticon.com/128/3607/3607875.png",
-    aiPrompt:"Give me 5 topic ideas in bullet wise only based on give niche and outline topic and give me Result in Rich Text editor format .",
-    slug:"generate blog title",
-    form:[
-        {
-            label:"Enter you blog niche",
-            field:"input",
-            name:"niche",
-            required:true
-        }, 
-        {
-            label:"Enter blog outline",
-            field:"textarea",
-            name:"outline",
-        }
-    ]
-
-   },
 
    {
     name: "Social Media Caption",
